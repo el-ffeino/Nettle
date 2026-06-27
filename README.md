@@ -37,4 +37,5 @@ sudo pacman -S ffmpeg dotnet-runtime
 ```
 
 # Support
-btc, monero, usdt/c, kofi or something
+btc, monero, usdt/c, kofi or something  
+also would be nice if the app had a logo/icon o_O
