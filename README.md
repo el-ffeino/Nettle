@@ -27,7 +27,7 @@ Download any of the [releases](https://github.com/el-ffeino/Nettle/releases) and
 From there on, you can just run `Nettle` executable.  
 
 > [!TIP]
-> If you have the 'Rounded Window Corners' extension installed, you might need to blacklist 'mpv' if you see borders around your wallpaper.
+> If you have the **Rounded Window Corners** extension installed, you might need to blacklist `mpv` if you see borders around your wallpaper.
 
 ### Dependencies
 Latest version of GNOME, ffmpeg, dotnet runtime  
@@ -38,4 +38,5 @@ sudo pacman -S ffmpeg dotnet-runtime
 
 # Support
 btc, monero, usdt/c, kofi or something  
-also would be nice if the app had a logo/icon o_O
+hook me up with a job ezzzzzzzzzzz 🤪🤪  
+also would be nice if the app had a logo/icon o_O  
