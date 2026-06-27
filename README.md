@@ -39,4 +39,4 @@ sudo pacman -S ffmpeg dotnet-runtime
 # Support
 btc, monero, usdt/c, kofi or something  
 hook me up with a job ezzzzzzzzzzz 🤪🤪  
-also would be nice if the app had a logo/icon o_O  
+also would be nice if the app had a logo/icon (NETTLE PLANT ITSELF!!!!) o_O  
