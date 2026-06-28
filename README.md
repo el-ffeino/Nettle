@@ -26,9 +26,6 @@ Supports multiple display setups!
 Download any of the [releases](https://github.com/el-ffeino/Nettle/releases) and extract into your desired location.  
 From there on, you can just run `Nettle` executable.  
 
-> [!TIP]
-> If you have the **Rounded Window Corners** extension installed, you might need to blacklist `mpv` if you see borders around your wallpaper.
-
 ### Dependencies
 Latest version of GNOME, ffmpeg, dotnet runtime  
 
