@@ -49,9 +49,9 @@ Normal money:
 [![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/ffeine)  
 
 Crypto:  
-BTC 1MJPLJdJgBFmdyjUQQz5A5d1QQS4nPqwzo  
-XMR 48QiNE1W3dqYFBSKhiH4NdWTzbkmkJ98YYy1Lxx6URMRZFNwJs3e92KXHRKyuTJTAMDTwE3KSGvD8Ho6KxdGcNwBR8D8FHm  
+BTC 1MJPLJdJgBFmdyjUQQz5A5d1QQS4nPqwzo   
 ETH (USDT/USDC) 0x67814e48184bccc89c28bf4e9c4e63ec82610171  
 TRX (USDT/USDC) TSBfrMtzmymgK7g5B4qzMQFSn2TXLHqC52  
+XMR 48QiNE1W3dqYFBSKhiH4NdWTzbkmkJ98YYy1Lxx6URMRZFNwJs3e92KXHRKyuTJTAMDTwE3KSGvD8Ho6KxdGcNwBR8D8FHm 
 
 also would be nice if the app had a logo/icon (NETTLE PLANT ITSELF!!!!) o_O  
