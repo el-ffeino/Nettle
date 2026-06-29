@@ -1,0 +1,14 @@
+1. Regenerate wallpaper preview option inside wallpaper context menu in case the first frame is pitch black
+2. Since workspace overview patching is experimental, add it inside preferences (done)
+3. Overview background patch is also implemented, add blur to it and also make it a preference? (done - minus blur)
+4. Package as flatpak for the "run in background" functionality inside quick settings menu
+5. Option to pause playback on all displays in case there's a maximized window on one of them
+6. Re-encode option inside wallpaper context menu to save on resources by setting the video to monitor's resolution and 30-60 FPS?
+7. Add --minimzed argument to start options so it doesn't pop up on desktop boot
+8. Explore section of the app
+9. Implement GetInstalledVersion() so it can auto-update extension on new releases
+
+Potential/known bugs
+
+There might be a VRAM leak inside overview background preview actor patch when playing on multiple displays (fixed I believe?)
+1. Random window attachment fail

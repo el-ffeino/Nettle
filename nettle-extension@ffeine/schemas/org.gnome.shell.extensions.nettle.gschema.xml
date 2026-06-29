@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.nettle" path="/org/gnome/shell/extensions/nettle/">
+    <key name="overview-background" type="b">
+      <default>false</default>
+      <summary>Add wallpaper to overview background</summary>
+      <description>Show wallpaper clones behind the overview UI.</description>
+    </key>
+
+    <key name="workspace-patch" type="b">
+      <default>true</default>
+      <summary>Workspace preview actor patch</summary>
+      <description>Show wallpaper inside GNOME overview workspace previews.</description>
+    </key>
+  </schema>
+</schemalist>

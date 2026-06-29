@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/io/ffeine/Nettle">
+    <file preprocess="xml-stripblanks">icons/scalable/actions/nettle-library-symbolic.svg</file>
+    <file preprocess="xml-stripblanks">icons/scalable/actions/nettle-compass2-symbolic.svg</file>
+    <file preprocess="xml-stripblanks">icons/scalable/actions/nettle-plus-large-symbolic.svg</file>
+    <file preprocess="xml-stripblanks">icons/scalable/actions/nettle-play-symbolic.svg</file>
+    <file preprocess="xml-stripblanks">icons/scalable/actions/nettle-cogwheel-symbolic.svg</file>
+    <file preprocess="xml-stripblanks">icons/scalable/actions/nettle-menu-symbolic.svg</file>
+  </gresource>
+</gresources>

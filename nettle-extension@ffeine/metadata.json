@@ -1,0 +1,8 @@
+{
+    "uuid": "nettle-extension@ffeine",
+    "name": "Nettle Extension",
+    "description": "Helper extension for live wallpapers through Nettle.",
+    "shell-version": ["50"],
+    "settings-schema": "org.gnome.shell.extensions.nettle",
+    "version": 1
+  }

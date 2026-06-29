@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GirCore.Adw-1" Version="0.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Nettle.gresource.xml" />
+  </ItemGroup>
+
+  <Target Name="CompileGResources" BeforeTargets="BeforeBuild">
+    <Exec Command="glib-compile-resources --sourcedir=. Nettle.gresource.xml --target=Nettle.gresource" />
+  </Target>
+
+  <ItemGroup>
+    <None Include="Nettle.gresource" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="style.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <Target Name="PackExtension" BeforeTargets="BeforeBuild">
+    <Exec Command="gnome-extensions pack nettle-extension@ffeine --force --out-dir $(OutputPath)" WorkingDirectory="$(MSBuildProjectDirectory)" />
+  </Target>
+
+  <ItemGroup>
+    <None Include="nettle-extension@ffeine/schemas/**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Schemas/%(RecursiveDir)%(Filename)%(Extension)</TargetPath>
+    </None>
+  </ItemGroup>
+
+  <Target Name="Message :3" AfterTargets="Build">
+    <Exec Command = "echo -e &quot;\nMotivation - the light of my day.\nThank you, Lord, for listening at my lowest.\n&lt;3&quot; &gt;&gt; Nettle" WorkingDirectory="$(OutputPath)" />
+  </Target>
+  
+</Project>
