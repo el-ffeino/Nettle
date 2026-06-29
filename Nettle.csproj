@@ -29,7 +29,7 @@
     </None>
   </ItemGroup>
 
-  <Target Name="PackExtension" BeforeTargets="BeforeBuild">
+  <Target Name="PackExtension" AfterTargets="Build">
     <Exec Command="gnome-extensions pack nettle-extension@ffeine --force --out-dir $(OutputPath)" WorkingDirectory="$(MSBuildProjectDirectory)" />
   </Target>
 
