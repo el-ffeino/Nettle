@@ -34,7 +34,7 @@ Download any of the [releases](https://github.com/el-ffeino/Nettle/releases) and
 From there on, you can just run `Nettle` executable.  
 
 ### Dependencies
-Latest version of GNOME, ffmpeg, dotnet runtime  
+Latest version of GNOME, mpv, dotnet runtime  
 
 ```console
 sudo pacman -S ffmpeg dotnet-runtime
