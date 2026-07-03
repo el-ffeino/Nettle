@@ -7,8 +7,16 @@
 7. Add --minimzed argument to start options so it doesn't pop up on desktop boot
 8. Explore section of the app
 9. Implement GetInstalledVersion() so it can auto-update extension on new releases
+10. Multi-thread wallpaper import or just run in a separate task so the UI doesn't freeze
 
 Potential/known bugs
 
 There might be a VRAM leak inside overview background preview actor patch when playing on multiple displays (fixed I believe?)
 1. Random window attachment fail
+
+
+Unrelated:
+string extensions for: 
+string.Before(string input) returns everything before certain string
+string.After returns..
+string.Between(string start, string end)
